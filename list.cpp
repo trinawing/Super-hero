@@ -1,4 +1,5 @@
 #include "list.h"
+
 //constructor
 list::list()
 {
