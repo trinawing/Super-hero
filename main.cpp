@@ -28,7 +28,7 @@ bool would_delete(void);
 //function to ask what power to delete
 void delete_power(char power);
 
-//void search_situation(char power_use);
+
 
 int main()
 {
@@ -38,7 +38,6 @@ char power_type[42];           //type of power
 char power_use[42];		//situation where the power is useful
 char hero_name[42];		//heroes name
 char hero_desc[42];		//heroes description
-//char power[42];		//Power to delete
 int number_of_powers = 0;	//number of powers stored
 
 
@@ -94,11 +93,8 @@ if(would_hero() == true)
 }
 	
 test.display_all();
-
-
-
-
-} while(start_over() == true);
+	{	
+	while(start_over() == true);
 
 	
 return 0;
